@@ -5,7 +5,7 @@
     pip install -m python3 imageio
     
 ## 2) put the script and all of the frames (images) in a folder
-- You'll want to make sure the frames have some ordering to them in the filenames (see the sample_frames)
+- You'll want to make sure the frames have some ordering to them in the filenames (see the sample)
 
 ## 3) get the pathname of the folder and change the path variable on line 4 in gif_maker.py
     
