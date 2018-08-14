@@ -16,4 +16,4 @@ filenames.sort() # this iteration technique has no built in order, so sort the f
 
 images = list(map(lambda filename: imageio.imread(filename), filenames))
 
-imageio.mimsave(os.path.join('movie.gif', images, duration = 0.04) # modify the frame duration as needed
+imageio.mimsave(os.path.join('my_very_own_gif.gif', images, duration = 0.04) # modify the frame duration as needed
