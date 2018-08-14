@@ -1,4 +1,6 @@
-# Waste some time and read <a href="https://stackoverflow.com/questions/753190/programmatically-generate-video-or-animated-gif-in-python"> this Stack Overflow post</a>
+## Waste some time and read <a href="https://stackoverflow.com/questions/753190/programmatically-generate-video-or-animated-gif-in-python"> this Stack Overflow post</a>
+
+<img src="movie.gif" width="210" height="120px" img>
 
 ### 1) install imageio  
   
