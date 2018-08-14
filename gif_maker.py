@@ -1,7 +1,7 @@
 import imageio
 import os
 
-path = '/Users/danielmcgrath/Desktop/Pics/'
+path = '/Users/danielmcgrath/Desktop/Pics/' # on Mac: right click on a folder, hold down option, and click "copy as pathname"
 
 image_folder = os.fsencode(path)
 
@@ -12,4 +12,4 @@ for file in os.listdir(image_folder):
 	if filename.endswith( ('.jpeg','.png') ):
         	images.append(imageio.imread(filename))
 
-imageio.mimsave('/Users/danielmcgrath/Desktop/Pics/movie.gif', images)
+imageio.mimsave(os.path.join('movie.gif', images)
