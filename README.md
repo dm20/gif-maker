@@ -1,4 +1,4 @@
-## Inspired by <a href="https://stackoverflow.com/questions/753190/programmatically-generate-video-or-animated-gif-in-python"> this Stack Overflow post</a>
+## Mafe a gif in just a jiff!
 
 <img src="https://github.com/dm20/gif-maker/blob/master/ron.gif" gif>
 
@@ -18,3 +18,5 @@
     
     cd /directory_with_frames_and_script/
     python3 gif_maker.py
+    
+#### Inspired by <a href="https://stackoverflow.com/questions/753190/programmatically-generate-video-or-animated-gif-in-python"> this Stack Overflow post</a>
