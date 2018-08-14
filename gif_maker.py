@@ -1,7 +1,7 @@
 import imageio
 import os
 
-path = '/Users/danielmcgrath/Desktop/Pics/' # on Mac: right click on a folder, hold down option, and click "copy as pathname"
+path = '/Users/username/Desktop/sample/' # on Mac: right click on a folder, hold down option, and click "copy as pathname"
 
 image_folder = os.fsencode(path)
 
