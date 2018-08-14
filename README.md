@@ -10,6 +10,6 @@
     
     path = '/path/to/your/pics/'
     
-#### 4) make a gif!
+#### 4) make a gif! (it'll take a few seconds)
     
     python3 gif_maker.py
