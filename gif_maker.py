@@ -9,7 +9,7 @@ images = []
 
 for file in os.listdir(image_folder):
 	filename = os.fsdecode(file)
-	if filename.endswith( ('.jpeg','.png', ',gif') ):
+	if filename.endswith( ('.jpeg','.png') ):
         	images.append(imageio.imread(filename))
 
-imageio.mimsave(os.path.join('movie.gif', images, duration = 0.04)
+imageio.mimsave(os.path.join('movie.gif', images, duration = 0.04) # modify the duration as needed
