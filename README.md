@@ -11,6 +11,6 @@
     
     path = '/path/to/your/pics/'
     
-## 4) make a gif! (it'll take a few seconds)
+## 4) make a gif!
     
     python3 gif_maker.py
