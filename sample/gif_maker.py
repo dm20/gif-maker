@@ -1,7 +1,7 @@
 import imageio
 import os
 
-path = '/Users/danielmcgrath/Desktop/test_giffy'
+path = '/Users/username/Desktop/sample/' # on Mac: right click on a folder, hold down option, and click "copy as pathname"
 
 image_folder = os.fsencode(path)
 
@@ -12,8 +12,8 @@ for file in os.listdir(image_folder):
     if filename.endswith( ('.jpeg', '.png', '.gif') ):
         filenames.append(filename)
         
-filenames.sort()
+filenames.sort() # this iteration technique has no built in order, so sort the frames
 
 images = list(map(lambda filename: imageio.imread(filename), filenames))
 
-imageio.mimsave(os.path.join('movie.gif'), images, duration = 0.04)
+imageio.mimsave(os.path.join('movie.gif', images, duration = 0.04) # modify the frame duration as needed
