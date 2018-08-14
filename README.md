@@ -6,7 +6,7 @@
     
 ### 2) put the script and all of the frames (images) in a folder
 - You'll want to make sure the frames have some ordering to them in the filenames (see the sample)
-- The frames can be any image type (PNG, JPEG, or even discrete GIF frames) as in the sample
+- The frames can be any image type (PNG, JPEG, or even individual GIF frames) as in the sample
 
 ### 3) get the pathname of the folder and change the path variable on line 4 in gif_maker.py
     
