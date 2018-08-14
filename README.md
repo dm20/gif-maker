@@ -13,5 +13,5 @@
     
 ## 4) make a gif!
     
-    cd directory with frames and script
+    cd /directory_with_frames_and_script/
     python3 gif_maker.py
