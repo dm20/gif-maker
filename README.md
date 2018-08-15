@@ -4,7 +4,7 @@
 
 ### 1) install imageio  
   
-    pip install -m python3 imageio
+    python3 -m pip install imageio
     
 ### 2) put the script and all of the frames (images) in a folder
 - You'll want to make sure the frames have some ordering to them in the filenames (see the sample)
